@@ -76,9 +76,9 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         },
         algolia: {
-            apiKey: process.env.APPLICATION_ID,
+            apiKey: process.env.API_KEY,
             indexName: "docs",
-            appId: process.env.API_KEY,
+            appId: process.env.APPLICATION_ID
         },
     },
     presets: [
